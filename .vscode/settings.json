@@ -1,0 +1,7 @@
+{
+    "editor.tokenColorCustomizations": {
+        "[Monokai Pro (Filter Spectrum)]": {
+            "comments": "#d4922f"
+        }
+    }
+}
