@@ -137,6 +137,66 @@ main{
     margin-bottom: 1.75rem;
 }
 
+/* feature section style*/
+
+.features{
+    margin: 130px 0;
+    display: flex;
+    gap: 110px;
+}
+
+.feature-header{
+    margin-bottom: 30px;
+}
+
+.features .section-title{
+    margin-bottom: 5px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-content .card h4{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.feature-content .card{
+    border-radius: 8px;
+    background: #FFF; 
+    box-shadow: 2px 0px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px; 
+}
+
+.feature-img img{
+    height: 90%;
+    margin-left: 80px;
+}
+
+.ten-year-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 140px;
+}
+
+.ten-year-badge h2{
+    font-size: 4.06rem;
+    margin: 0;
+    font-weight: 700;
+    
+}
+
+.ten-year-badge p{
+    font-size: 1.57rem;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
 /* facts section styles */
 
 .facts .section-title{
@@ -191,7 +251,7 @@ main{
     margin-top: 50px;
 }
 
-/* responsive media */
+/* responsive media queries*/
 
 @media screen and (max-width: 576px){
     header{
@@ -233,6 +293,38 @@ main{
     .sponsors-img-container img{
         width: 160px;
     }
+    .facts-header .section-title{
+        margin-top: -70px;
+    }
+    .features{
+        margin: 60px 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feature-content{
+        padding: 25px;
+    }
+    .feature-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .ten-year-badge{
+        width: 50%;
+        padding: 30px;
+        bottom: 110px;
+        left: 70px;
+    }
+    .ten-year-badge h2{
+        font-size: 3.03rem;
+        margin: 0;
+        font-weight: 700;
+        
+    }  
+    .ten-year-badge p{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 15px;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px){
@@ -271,6 +363,29 @@ main{
         align-items: center;
         gap: 20px;
     }
+    .facts-header .section-title{
+        margin-top: -70px;
+    }
+    .features{
+        margin: 70px 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feature-content, .feature-img{
+        padding: 45px;
+    }
+    .feature-content .card{ 
+        box-shadow: 12px 3px 50px 0px rgba(0, 0, 0, 0.06); 
+    }
+    .feature-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .ten-year-badge{
+        padding: 30px;
+        bottom: 110px;
+        left: 140px;
+    }
 
 }
 
@@ -306,7 +421,29 @@ main{
         align-items: center;
         gap: 20px;
         padding: 0 70px;
-        
     }
-    
+    .facts-header .section-title{
+        margin-top: -170px;
+    }
+    .features{
+        margin-top: 70px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .feature-content, .feature-img{
+        padding: 115px;
+    }
+    .feature-img img{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .ten-year-badge{
+        padding: 30px;
+        bottom: 110px;
+        left: 250px;
+    }
+    .feature-img{
+        position: relative;
+        bottom: 100px; 
+    }   
 }
